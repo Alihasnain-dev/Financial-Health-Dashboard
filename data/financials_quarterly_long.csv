@@ -1,0 +1,277 @@
+ReportDate,Year,Quarter,StatementType,Account,Amount
+2021-03-31,2021,1,Income Statement,Vehicle Sales,5000000
+2021-03-31,2021,1,Income Statement,Energy Storage Sales,500000
+2021-03-31,2021,1,Income Statement,Service & Other,200000
+2021-03-31,2021,1,Income Statement,Material Costs,3000000
+2021-03-31,2021,1,Income Statement,Direct Labor,400000
+2021-03-31,2021,1,Income Statement,Manufacturing Overhead,200000
+2021-03-31,2021,1,Income Statement,R&D Expense,600000
+2021-03-31,2021,1,Income Statement,Sales & Marketing,300000
+2021-03-31,2021,1,Income Statement,General & Administrative,200000
+2021-03-31,2021,1,Income Statement,Depreciation & Amortization,250000
+2021-03-31,2021,1,Income Statement,Interest Expense,100000
+2021-03-31,2021,1,Income Statement,Income Tax Expense,130000
+2021-06-30,2021,2,Income Statement,Vehicle Sales,6000000
+2021-06-30,2021,2,Income Statement,Energy Storage Sales,700000
+2021-06-30,2021,2,Income Statement,Service & Other,300000
+2021-06-30,2021,2,Income Statement,Material Costs,3500000
+2021-06-30,2021,2,Income Statement,Direct Labor,450000
+2021-06-30,2021,2,Income Statement,Manufacturing Overhead,250000
+2021-06-30,2021,2,Income Statement,R&D Expense,650000
+2021-06-30,2021,2,Income Statement,Sales & Marketing,350000
+2021-06-30,2021,2,Income Statement,General & Administrative,250000
+2021-06-30,2021,2,Income Statement,Depreciation & Amortization,260000
+2021-06-30,2021,2,Income Statement,Interest Expense,110000
+2021-06-30,2021,2,Income Statement,Income Tax Expense,236000
+2021-09-30,2021,3,Income Statement,Vehicle Sales,7000000
+2021-09-30,2021,3,Income Statement,Energy Storage Sales,800000
+2021-09-30,2021,3,Income Statement,Service & Other,300000
+2021-09-30,2021,3,Income Statement,Material Costs,4000000
+2021-09-30,2021,3,Income Statement,Direct Labor,500000
+2021-09-30,2021,3,Income Statement,Manufacturing Overhead,300000
+2021-09-30,2021,3,Income Statement,R&D Expense,700000
+2021-09-30,2021,3,Income Statement,Sales & Marketing,400000
+2021-09-30,2021,3,Income Statement,General & Administrative,300000
+2021-09-30,2021,3,Income Statement,Depreciation & Amortization,270000
+2021-09-30,2021,3,Income Statement,Interest Expense,120000
+2021-09-30,2021,3,Income Statement,Income Tax Expense,302000
+2021-12-31,2021,4,Income Statement,Vehicle Sales,8000000
+2021-12-31,2021,4,Income Statement,Energy Storage Sales,1000000
+2021-12-31,2021,4,Income Statement,Service & Other,300000
+2021-12-31,2021,4,Income Statement,Material Costs,4500000
+2021-12-31,2021,4,Income Statement,Direct Labor,550000
+2021-12-31,2021,4,Income Statement,Manufacturing Overhead,350000
+2021-12-31,2021,4,Income Statement,R&D Expense,750000
+2021-12-31,2021,4,Income Statement,Sales & Marketing,450000
+2021-12-31,2021,4,Income Statement,General & Administrative,350000
+2021-12-31,2021,4,Income Statement,Depreciation & Amortization,280000
+2021-12-31,2021,4,Income Statement,Interest Expense,130000
+2021-12-31,2021,4,Income Statement,Income Tax Expense,388000
+2022-03-31,2022,1,Income Statement,Vehicle Sales,6000000
+2022-03-31,2022,1,Income Statement,Energy Storage Sales,600000
+2022-03-31,2022,1,Income Statement,Service & Other,300000
+2022-03-31,2022,1,Income Statement,Material Costs,4000000
+2022-03-31,2022,1,Income Statement,Direct Labor,600000
+2022-03-31,2022,1,Income Statement,Manufacturing Overhead,300000
+2022-03-31,2022,1,Income Statement,R&D Expense,800000
+2022-03-31,2022,1,Income Statement,Sales & Marketing,500000
+2022-03-31,2022,1,Income Statement,General & Administrative,300000
+2022-03-31,2022,1,Income Statement,Depreciation & Amortization,300000
+2022-03-31,2022,1,Income Statement,Interest Expense,150000
+2022-03-31,2022,1,Income Statement,Income Tax Expense,0
+2022-06-30,2022,2,Income Statement,Vehicle Sales,5000000
+2022-06-30,2022,2,Income Statement,Energy Storage Sales,600000
+2022-06-30,2022,2,Income Statement,Service & Other,250000
+2022-06-30,2022,2,Income Statement,Material Costs,4500000
+2022-06-30,2022,2,Income Statement,Direct Labor,620000
+2022-06-30,2022,2,Income Statement,Manufacturing Overhead,310000
+2022-06-30,2022,2,Income Statement,R&D Expense,850000
+2022-06-30,2022,2,Income Statement,Sales & Marketing,520000
+2022-06-30,2022,2,Income Statement,General & Administrative,320000
+2022-06-30,2022,2,Income Statement,Depreciation & Amortization,310000
+2022-06-30,2022,2,Income Statement,Interest Expense,160000
+2022-06-30,2022,2,Income Statement,Income Tax Expense,0
+2022-09-30,2022,3,Income Statement,Vehicle Sales,4500000
+2022-09-30,2022,3,Income Statement,Energy Storage Sales,550000
+2022-09-30,2022,3,Income Statement,Service & Other,200000
+2022-09-30,2022,3,Income Statement,Material Costs,4200000
+2022-09-30,2022,3,Income Statement,Direct Labor,610000
+2022-09-30,2022,3,Income Statement,Manufacturing Overhead,315000
+2022-09-30,2022,3,Income Statement,R&D Expense,900000
+2022-09-30,2022,3,Income Statement,Sales & Marketing,540000
+2022-09-30,2022,3,Income Statement,General & Administrative,340000
+2022-09-30,2022,3,Income Statement,Depreciation & Amortization,320000
+2022-09-30,2022,3,Income Statement,Interest Expense,170000
+2022-09-30,2022,3,Income Statement,Income Tax Expense,0
+2022-12-31,2022,4,Income Statement,Vehicle Sales,5500000
+2022-12-31,2022,4,Income Statement,Energy Storage Sales,650000
+2022-12-31,2022,4,Income Statement,Service & Other,300000
+2022-12-31,2022,4,Income Statement,Material Costs,4800000
+2022-12-31,2022,4,Income Statement,Direct Labor,630000
+2022-12-31,2022,4,Income Statement,Manufacturing Overhead,320000
+2022-12-31,2022,4,Income Statement,R&D Expense,950000
+2022-12-31,2022,4,Income Statement,Sales & Marketing,560000
+2022-12-31,2022,4,Income Statement,General & Administrative,360000
+2022-12-31,2022,4,Income Statement,Depreciation & Amortization,330000
+2022-12-31,2022,4,Income Statement,Interest Expense,180000
+2022-12-31,2022,4,Income Statement,Income Tax Expense,0
+2023-03-31,2023,1,Income Statement,Vehicle Sales,8000000
+2023-03-31,2023,1,Income Statement,Energy Storage Sales,900000
+2023-03-31,2023,1,Income Statement,Service & Other,350000
+2023-03-31,2023,1,Income Statement,Material Costs,5700000
+2023-03-31,2023,1,Income Statement,Direct Labor,700000
+2023-03-31,2023,1,Income Statement,Manufacturing Overhead,350000
+2023-03-31,2023,1,Income Statement,R&D Expense,700000
+2023-03-31,2023,1,Income Statement,Sales & Marketing,600000
+2023-03-31,2023,1,Income Statement,General & Administrative,300000
+2023-03-31,2023,1,Income Statement,Depreciation & Amortization,300000
+2023-03-31,2023,1,Income Statement,Interest Expense,150000
+2023-03-31,2023,1,Income Statement,Income Tax Expense,90000
+2023-06-30,2023,2,Income Statement,Vehicle Sales,6000000
+2023-06-30,2023,2,Income Statement,Energy Storage Sales,700000
+2023-06-30,2023,2,Income Statement,Service & Other,250000
+2023-06-30,2023,2,Income Statement,Material Costs,4650000
+2023-06-30,2023,2,Income Statement,Direct Labor,650000
+2023-06-30,2023,2,Income Statement,Manufacturing Overhead,300000
+2023-06-30,2023,2,Income Statement,R&D Expense,800000
+2023-06-30,2023,2,Income Statement,Sales & Marketing,650000
+2023-06-30,2023,2,Income Statement,General & Administrative,350000
+2023-06-30,2023,2,Income Statement,Depreciation & Amortization,300000
+2023-06-30,2023,2,Income Statement,Interest Expense,150000
+2023-06-30,2023,2,Income Statement,Income Tax Expense,0
+2023-09-30,2023,3,Income Statement,Vehicle Sales,7000000
+2023-09-30,2023,3,Income Statement,Energy Storage Sales,800000
+2023-09-30,2023,3,Income Statement,Service & Other,300000
+2023-09-30,2023,3,Income Statement,Material Costs,5770000
+2023-09-30,2023,3,Income Statement,Direct Labor,700000
+2023-09-30,2023,3,Income Statement,Manufacturing Overhead,350000
+2023-09-30,2023,3,Income Statement,R&D Expense,750000
+2023-09-30,2023,3,Income Statement,Sales & Marketing,620000
+2023-09-30,2023,3,Income Statement,General & Administrative,330000
+2023-09-30,2023,3,Income Statement,Depreciation & Amortization,300000
+2023-09-30,2023,3,Income Statement,Interest Expense,140000
+2023-09-30,2023,3,Income Statement,Income Tax Expense,0
+2023-12-31,2023,4,Income Statement,Vehicle Sales,6500000
+2023-12-31,2023,4,Income Statement,Energy Storage Sales,850000
+2023-12-31,2023,4,Income Statement,Service & Other,280000
+2023-12-31,2023,4,Income Statement,Material Costs,3370000
+2023-12-31,2023,4,Income Statement,Direct Labor,720000
+2023-12-31,2023,4,Income Statement,Manufacturing Overhead,360000
+2023-12-31,2023,4,Income Statement,R&D Expense,820000
+2023-12-31,2023,4,Income Statement,Sales & Marketing,590000
+2023-12-31,2023,4,Income Statement,General & Administrative,320000
+2023-12-31,2023,4,Income Statement,Depreciation & Amortization,300000
+2023-12-31,2023,4,Income Statement,Interest Expense,150000
+2023-12-31,2023,4,Income Statement,Income Tax Expense,200000
+2021-03-31,2021,1,Balance Sheet,Cash & Cash Equivalents,2500000
+2021-03-31,2021,1,Balance Sheet,Accounts Receivable,1000000
+2021-03-31,2021,1,Balance Sheet,Inventory,800000
+2021-03-31,2021,1,Balance Sheet,PPE (Net),2500000
+2021-03-31,2021,1,Balance Sheet,Accounts Payable,600000
+2021-03-31,2021,1,Balance Sheet,Short-Term Debt,500000
+2021-03-31,2021,1,Balance Sheet,Long-Term Debt,2000000
+2021-03-31,2021,1,Balance Sheet,Equity,3700000
+2021-06-30,2021,2,Balance Sheet,Cash & Cash Equivalents,3000000
+2021-06-30,2021,2,Balance Sheet,Accounts Receivable,1200000
+2021-06-30,2021,2,Balance Sheet,Inventory,900000
+2021-06-30,2021,2,Balance Sheet,PPE (Net),2700000
+2021-06-30,2021,2,Balance Sheet,Accounts Payable,650000
+2021-06-30,2021,2,Balance Sheet,Short-Term Debt,550000
+2021-06-30,2021,2,Balance Sheet,Long-Term Debt,2100000
+2021-06-30,2021,2,Balance Sheet,Equity,4500000
+2021-09-30,2021,3,Balance Sheet,Cash & Cash Equivalents,3500000
+2021-09-30,2021,3,Balance Sheet,Accounts Receivable,1300000
+2021-09-30,2021,3,Balance Sheet,Inventory,1000000
+2021-09-30,2021,3,Balance Sheet,PPE (Net),2900000
+2021-09-30,2021,3,Balance Sheet,Accounts Payable,700000
+2021-09-30,2021,3,Balance Sheet,Short-Term Debt,600000
+2021-09-30,2021,3,Balance Sheet,Long-Term Debt,2200000
+2021-09-30,2021,3,Balance Sheet,Equity,5200000
+2021-12-31,2021,4,Balance Sheet,Cash & Cash Equivalents,4000000
+2021-12-31,2021,4,Balance Sheet,Accounts Receivable,1500000
+2021-12-31,2021,4,Balance Sheet,Inventory,1200000
+2021-12-31,2021,4,Balance Sheet,PPE (Net),3100000
+2021-12-31,2021,4,Balance Sheet,Accounts Payable,750000
+2021-12-31,2021,4,Balance Sheet,Short-Term Debt,650000
+2021-12-31,2021,4,Balance Sheet,Long-Term Debt,2300000
+2021-12-31,2021,4,Balance Sheet,Equity,6100000
+2022-03-31,2022,1,Balance Sheet,Cash & Cash Equivalents,2000000
+2022-03-31,2022,1,Balance Sheet,Accounts Receivable,1100000
+2022-03-31,2022,1,Balance Sheet,Inventory,900000
+2022-03-31,2022,1,Balance Sheet,PPE (Net),2800000
+2022-03-31,2022,1,Balance Sheet,Accounts Payable,700000
+2022-03-31,2022,1,Balance Sheet,Short-Term Debt,550000
+2022-03-31,2022,1,Balance Sheet,Long-Term Debt,2300000
+2022-03-31,2022,1,Balance Sheet,Equity,3250000
+2022-06-30,2022,2,Balance Sheet,Cash & Cash Equivalents,1800000
+2022-06-30,2022,2,Balance Sheet,Accounts Receivable,1000000
+2022-06-30,2022,2,Balance Sheet,Inventory,800000
+2022-06-30,2022,2,Balance Sheet,PPE (Net),2700000
+2022-06-30,2022,2,Balance Sheet,Accounts Payable,720000
+2022-06-30,2022,2,Balance Sheet,Short-Term Debt,600000
+2022-06-30,2022,2,Balance Sheet,Long-Term Debt,2400000
+2022-06-30,2022,2,Balance Sheet,Equity,2580000
+2022-09-30,2022,3,Balance Sheet,Cash & Cash Equivalents,1500000
+2022-09-30,2022,3,Balance Sheet,Accounts Receivable,900000
+2022-09-30,2022,3,Balance Sheet,Inventory,850000
+2022-09-30,2022,3,Balance Sheet,PPE (Net),2600000
+2022-09-30,2022,3,Balance Sheet,Accounts Payable,730000
+2022-09-30,2022,3,Balance Sheet,Short-Term Debt,620000
+2022-09-30,2022,3,Balance Sheet,Long-Term Debt,2500000
+2022-09-30,2022,3,Balance Sheet,Equity,2000000
+2022-12-31,2022,4,Balance Sheet,Cash & Cash Equivalents,2000000
+2022-12-31,2022,4,Balance Sheet,Accounts Receivable,1000000
+2022-12-31,2022,4,Balance Sheet,Inventory,900000
+2022-12-31,2022,4,Balance Sheet,PPE (Net),2900000
+2022-12-31,2022,4,Balance Sheet,Accounts Payable,750000
+2022-12-31,2022,4,Balance Sheet,Short-Term Debt,650000
+2022-12-31,2022,4,Balance Sheet,Long-Term Debt,2600000
+2022-12-31,2022,4,Balance Sheet,Equity,2800000
+2023-03-31,2023,1,Balance Sheet,Cash & Cash Equivalents,4500000
+2023-03-31,2023,1,Balance Sheet,Accounts Receivable,2000000
+2023-03-31,2023,1,Balance Sheet,Inventory,1100000
+2023-03-31,2023,1,Balance Sheet,PPE (Net),3200000
+2023-03-31,2023,1,Balance Sheet,Accounts Payable,800000
+2023-03-31,2023,1,Balance Sheet,Short-Term Debt,600000
+2023-03-31,2023,1,Balance Sheet,Long-Term Debt,2300000
+2023-03-31,2023,1,Balance Sheet,Equity,7100000
+2023-06-30,2023,2,Balance Sheet,Cash & Cash Equivalents,4000000
+2023-06-30,2023,2,Balance Sheet,Accounts Receivable,1900000
+2023-06-30,2023,2,Balance Sheet,Inventory,1000000
+2023-06-30,2023,2,Balance Sheet,PPE (Net),3300000
+2023-06-30,2023,2,Balance Sheet,Accounts Payable,780000
+2023-06-30,2023,2,Balance Sheet,Short-Term Debt,620000
+2023-06-30,2023,2,Balance Sheet,Long-Term Debt,2400000
+2023-06-30,2023,2,Balance Sheet,Equity,6400000
+2023-09-30,2023,3,Balance Sheet,Cash & Cash Equivalents,4800000
+2023-09-30,2023,3,Balance Sheet,Accounts Receivable,2200000
+2023-09-30,2023,3,Balance Sheet,Inventory,1150000
+2023-09-30,2023,3,Balance Sheet,PPE (Net),3400000
+2023-09-30,2023,3,Balance Sheet,Accounts Payable,820000
+2023-09-30,2023,3,Balance Sheet,Short-Term Debt,630000
+2023-09-30,2023,3,Balance Sheet,Long-Term Debt,2400000
+2023-09-30,2023,3,Balance Sheet,Equity,7700000
+2023-12-31,2023,4,Balance Sheet,Cash & Cash Equivalents,4200000
+2023-12-31,2023,4,Balance Sheet,Accounts Receivable,2100000
+2023-12-31,2023,4,Balance Sheet,Inventory,1050000
+2023-12-31,2023,4,Balance Sheet,PPE (Net),3500000
+2023-12-31,2023,4,Balance Sheet,Accounts Payable,800000
+2023-12-31,2023,4,Balance Sheet,Short-Term Debt,620000
+2023-12-31,2023,4,Balance Sheet,Long-Term Debt,2500000
+2023-12-31,2023,4,Balance Sheet,Equity,6930000
+2021-03-31,2021,1,Cash Flow Statement,Cash Flow from Operating Activities,1200000
+2021-03-31,2021,1,Cash Flow Statement,Cash Flow from Investing Activities,-800000
+2021-03-31,2021,1,Cash Flow Statement,Cash Flow from Financing Activities,500000
+2021-06-30,2021,2,Cash Flow Statement,Cash Flow from Operating Activities,1300000
+2021-06-30,2021,2,Cash Flow Statement,Cash Flow from Investing Activities,-900000
+2021-06-30,2021,2,Cash Flow Statement,Cash Flow from Financing Activities,600000
+2021-09-30,2021,3,Cash Flow Statement,Cash Flow from Operating Activities,1500000
+2021-09-30,2021,3,Cash Flow Statement,Cash Flow from Investing Activities,-1000000
+2021-09-30,2021,3,Cash Flow Statement,Cash Flow from Financing Activities,400000
+2021-12-31,2021,4,Cash Flow Statement,Cash Flow from Operating Activities,1600000
+2021-12-31,2021,4,Cash Flow Statement,Cash Flow from Investing Activities,-1100000
+2021-12-31,2021,4,Cash Flow Statement,Cash Flow from Financing Activities,700000
+2022-03-31,2022,1,Cash Flow Statement,Cash Flow from Operating Activities,-500000
+2022-03-31,2022,1,Cash Flow Statement,Cash Flow from Investing Activities,-1000000
+2022-03-31,2022,1,Cash Flow Statement,Cash Flow from Financing Activities,1000000
+2022-06-30,2022,2,Cash Flow Statement,Cash Flow from Operating Activities,-600000
+2022-06-30,2022,2,Cash Flow Statement,Cash Flow from Investing Activities,-1100000
+2022-06-30,2022,2,Cash Flow Statement,Cash Flow from Financing Activities,900000
+2022-09-30,2022,3,Cash Flow Statement,Cash Flow from Operating Activities,-700000
+2022-09-30,2022,3,Cash Flow Statement,Cash Flow from Investing Activities,-1200000
+2022-09-30,2022,3,Cash Flow Statement,Cash Flow from Financing Activities,800000
+2022-12-31,2022,4,Cash Flow Statement,Cash Flow from Operating Activities,-400000
+2022-12-31,2022,4,Cash Flow Statement,Cash Flow from Investing Activities,-1000000
+2022-12-31,2022,4,Cash Flow Statement,Cash Flow from Financing Activities,700000
+2023-03-31,2023,1,Cash Flow Statement,Cash Flow from Operating Activities,2000000
+2023-03-31,2023,1,Cash Flow Statement,Cash Flow from Investing Activities,-1500000
+2023-03-31,2023,1,Cash Flow Statement,Cash Flow from Financing Activities,300000
+2023-06-30,2023,2,Cash Flow Statement,Cash Flow from Operating Activities,-300000
+2023-06-30,2023,2,Cash Flow Statement,Cash Flow from Investing Activities,-800000
+2023-06-30,2023,2,Cash Flow Statement,Cash Flow from Financing Activities,500000
+2023-09-30,2023,3,Cash Flow Statement,Cash Flow from Operating Activities,1000000
+2023-09-30,2023,3,Cash Flow Statement,Cash Flow from Investing Activities,-1000000
+2023-09-30,2023,3,Cash Flow Statement,Cash Flow from Financing Activities,200000
+2023-12-31,2023,4,Cash Flow Statement,Cash Flow from Operating Activities,-200000
+2023-12-31,2023,4,Cash Flow Statement,Cash Flow from Investing Activities,-900000
+2023-12-31,2023,4,Cash Flow Statement,Cash Flow from Financing Activities,400000

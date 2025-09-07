@@ -1,0 +1,96 @@
+CATALOG_NAME,SCHEMA_NAME,CUBE_NAME,MEASURE_NAME,MEASURE_UNIQUE_NAME,MEASURE_CAPTION,MEASURE_GUID,MEASURE_AGGREGATOR,DATA_TYPE,NUMERIC_PRECISION,NUMERIC_SCALE,MEASURE_UNITS,DESCRIPTION,EXPRESSION,MEASURE_IS_VISIBLE,LEVELS_LIST,MEASURE_NAME_SQL_COLUMN_NAME,MEASURE_UNQUALIFIED_CAPTION,MEASUREGROUP_NAME,MEASURE_DISPLAY_FOLDER,DEFAULT_FORMAT_STRING
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Total Amount,[Measures].[Total Amount],Total Amount,,0,20,65535,-1,,,SUM('public financialdataquarterly'[Amount]),TRUE,,Total Amount,Total Amount,public financialdataquarterly,,"\$#,0.###############;(\$#,0.###############);\$#,0.###############"
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Total Revenue,[Measures].[Total Revenue],Total Revenue,,0,20,65535,-1,,,[Vehicle Sales] + [Energy Storage Sales] + [Service & Other Revenue],TRUE,,Total Revenue,Total Revenue,public financialdataquarterly,,"\$#,0.###############;(\$#,0.###############);\$#,0.###############"
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Cost of Goods Sold,[Measures].[Cost of Goods Sold],Cost of Goods Sold,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Total COGS"") * -1",TRUE,,Cost of Goods Sold,Cost of Goods Sold,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Operating Expenses,[Measures].[Operating Expenses],Operating Expenses,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Total Operating Expenses"") * -1",TRUE,,Operating Expenses,Operating Expenses,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Operating Income,[Measures].[Operating Income],Operating Income,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Operating Income"")",TRUE,,Operating Income,Operating Income,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Cash & Equivalents,[Measures].[Cash & Equivalents],Cash & Equivalents,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Cash & Cash Equivalents"")",TRUE,,Cash & Equivalents,Cash & Equivalents,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Accounts Receivable,[Measures].[Accounts Receivable],Accounts Receivable,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Accounts Receivable"")",TRUE,,Accounts Receivable,Accounts Receivable,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Inventory,[Measures].[Inventory],Inventory,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Inventory"")",TRUE,,Inventory,Inventory,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Total Assets,[Measures].[Total Assets],Total Assets,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Total Assets"")",TRUE,,Total Assets,Total Assets,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Accounts Payable,[Measures].[Accounts Payable],Accounts Payable,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Accounts Payable"")",TRUE,,Accounts Payable,Accounts Payable,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Short-Term Debt,[Measures].[Short-Term Debt],Short-Term Debt,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Short-Term Debt"")",TRUE,,Short-Term Debt,Short-Term Debt,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Long-Term Debt,[Measures].[Long-Term Debt],Long-Term Debt,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Long-Term Debt"")",TRUE,,Long-Term Debt,Long-Term Debt,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Total Liabilities,[Measures].[Total Liabilities],Total Liabilities,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Accounts Payable"") + CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Short-Term Debt"") + CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Long-Term Debt"")",TRUE,,Total Liabilities,Total Liabilities,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Total Equity,[Measures].[Total Equity],Total Equity,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Equity"")",TRUE,,Total Equity,Total Equity,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Current Assets Calc1,[Measures].[Current Assets Calc1],Current Assets Calc1,,0,20,65535,-1,,,[Cash & Equivalents] + [Accounts Receivable] + [Inventory],TRUE,,Current Assets Calc1,Current Assets Calc1,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Current Liabilities Calc,[Measures].[Current Liabilities Calc],Current Liabilities Calc,,0,20,65535,-1,,,[Accounts Payable] + [Short-Term Debt],TRUE,,Current Liabilities Calc,Current Liabilities Calc,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Current Assets Calc,[Measures].[Current Assets Calc],Current Assets Calc,,0,20,65535,-1,,,[Cash & Equivalents] + [Accounts Receivable] + [Inventory],TRUE,,Current Assets Calc,Current Assets Calc,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Current Ratio,[Measures].[Current Ratio],Current Ratio,,0,5,65535,-1,,,"DIVIDE([Current Assets Calc], [Current Liabilities Calc])",TRUE,,Current Ratio,Current Ratio,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Operating Profit Margin,[Measures].[Operating Profit Margin],Operating Profit Margin,,0,5,65535,-1,,,"DIVIDE([Operating Income], [Total Revenue])",TRUE,,Operating Profit Margin,Operating Profit Margin,public financialdataquarterly,,
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Debt to Equity Ratio,[Measures].[Debt to Equity Ratio],Debt to Equity Ratio,,0,5,65535,-1,,,"DIVIDE([Total Liabilities], [Total Equity])",TRUE,,Debt to Equity Ratio,Debt to Equity Ratio,public financialdataquarterly,,
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Total Revenue PY,[Measures].[Total Revenue PY],Total Revenue PY,,0,20,65535,-1,,,"CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(DimDate[Date]))",TRUE,,Total Revenue PY,Total Revenue PY,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Revenue YoY Growth %,[Measures].[Revenue YoY Growth %],Revenue YoY Growth %,,0,5,65535,-1,,,"DIVIDE([Total Revenue] - [Total Revenue PY], [Total Revenue PY])",TRUE,,Revenue YoY Growth %,Revenue YoY Growth %,public financialdataquarterly,,
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Total Revenue YTD,[Measures].[Total Revenue YTD],Total Revenue YTD,,0,20,65535,-1,,,"TOTALYTD([Total Revenue], DimDate[Date])",TRUE,,Total Revenue YTD,Total Revenue YTD,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Vehicle Sales,[Measures].[Vehicle Sales],Vehicle Sales,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Vehicle Sales"")",TRUE,,Vehicle Sales,Vehicle Sales,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Energy Storage Sales,[Measures].[Energy Storage Sales],Energy Storage Sales,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Energy Storage Sales"")",TRUE,,Energy Storage Sales,Energy Storage Sales,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Service & Other Revenue,[Measures].[Service & Other Revenue],Service & Other Revenue,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Service & Other"")",TRUE,,Service & Other Revenue,Service & Other Revenue,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Total Revenue Calc,[Measures].[Total Revenue Calc],Total Revenue Calc,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Vehicle Sales"") +
+CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Energy Storage Sales"") +
+CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Service & Other"")",TRUE,,Total Revenue Calc,Total Revenue Calc,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Total COGS Calc,[Measures].[Total COGS Calc],Total COGS Calc,,0,20,65535,-1,,,"(
+    CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Material Costs"") +
+    CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Direct Labor"") +
+    CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Manufacturing Overhead"")
+) * -1",TRUE,,Total COGS Calc,Total COGS Calc,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Gross Profit Calc,[Measures].[Gross Profit Calc],Gross Profit Calc,,0,20,65535,-1,,,[Total Revenue Calc] - [Total COGS Calc],TRUE,,Gross Profit Calc,Gross Profit Calc,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Net Income Calc,[Measures].[Net Income Calc],Net Income Calc,,0,20,65535,-1,,,"[Gross Profit Calc]
+- CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""R&D Expense"")
+- CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Sales & Marketing"")
+- CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""General & Administrative"")
+- CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Depreciation & Amortization"")
+- CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Interest Expense"")
+- CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Income Tax Expense"")",TRUE,,Net Income Calc,Net Income Calc,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Gross Profit Margin,[Measures].[Gross Profit Margin],Gross Profit Margin,,0,5,65535,-1,,,"DIVIDE([Gross Profit Calc], [Total Revenue Calc])",TRUE,,Gross Profit Margin,Gross Profit Margin,public financialdataquarterly,,
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Net Profit Margin,[Measures].[Net Profit Margin],Net Profit Margin,,0,5,65535,-1,,,"DIVIDE([Net Income Calc], [Total Revenue Calc])",TRUE,,Net Profit Margin,Net Profit Margin,public financialdataquarterly,,
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Operating Cash Flow,[Measures].[Operating Cash Flow],Operating Cash Flow,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Cash Flow from Operating Activities"")",TRUE,,Operating Cash Flow,Operating Cash Flow,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Operating Income Calc,[Measures].[Operating Income Calc],Operating Income Calc,,0,20,65535,-1,,,"[Gross Profit Calc]
+- CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""R&D Expense"")
+- CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Sales & Marketing"")
+- CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""General & Administrative"")",TRUE,,Operating Income Calc,Operating Income Calc,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Total Operating Expenses Calc,[Measures].[Total Operating Expenses Calc],Total Operating Expenses Calc,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""R&D Expense"") +
+CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Sales & Marketing"") +
+CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""General & Administrative"")",TRUE,,Total Operating Expenses Calc,Total Operating Expenses Calc,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Cash Flow from Operating Activities,[Measures].[Cash Flow from Operating Activities],Cash Flow from Operating Activities,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Cash Flow from Operating Activities"")",TRUE,,Cash Flow from Operating Activities,Cash Flow from Operating Activities,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Cash Flow from Investing Activities,[Measures].[Cash Flow from Investing Activities],Cash Flow from Investing Activities,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Cash Flow from Investing Activities"")",TRUE,,Cash Flow from Investing Activities,Cash Flow from Investing Activities,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,Cash Flow from Financing Activities,[Measures].[Cash Flow from Financing Activities],Cash Flow from Financing Activities,,0,20,65535,-1,,,"CALCULATE([Total Amount], 'public financialdataquarterly'[Account] = ""Cash Flow from Financing Activities"")",TRUE,,Cash Flow from Financing Activities,Cash Flow from Financing Activities,public financialdataquarterly,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,P&L Value,[Measures].[P&L Value],P&L Value,,0,20,65535,-1,,,"IF (
+    ISINSCOPE ( 'P&L Structure'[P&L Line] ),
+    // IF TRUE (we are on a detail row), run original SWITCH logic
+    VAR CurrentLine = SELECTEDVALUE ( 'P&L Structure'[P&L Line] )
+    RETURN
+        SWITCH (
+            TRUE (),
+            CurrentLine = ""Vehicle Sales"", [Vehicle Sales],
+            CurrentLine = ""Energy Storage Sales"", [Energy Storage Sales],
+            CurrentLine = ""Service & Other"", [Service & Other Revenue],
+            CurrentLine = ""Total Revenue"", [Total Revenue Calc],
+            CurrentLine = ""Material Costs"", CALCULATE ( [Total Amount], 'public financialdataquarterly'[Account] = ""Material Costs"" ),
+            CurrentLine = ""Direct Labor"", CALCULATE ( [Total Amount], 'public financialdataquarterly'[Account] = ""Direct Labor"" ),
+            CurrentLine = ""Manufacturing Overhead"", CALCULATE ( [Total Amount], 'public financialdataquarterly'[Account] = ""Manufacturing Overhead"" ),
+            CurrentLine = ""Total COGS"", [Total COGS Calc] * -1,
+            CurrentLine = ""Gross Profit"", [Gross Profit Calc],
+            CurrentLine = ""R&D Expense"", CALCULATE ( [Total Amount], 'public financialdataquarterly'[Account] = ""R&D Expense"" ),
+            CurrentLine = ""Sales & Marketing"", CALCULATE ( [Total Amount], 'public financialdataquarterly'[Account] = ""Sales & Marketing"" ),
+            CurrentLine = ""General & Administrative"", CALCULATE ( [Total Amount], 'public financialdataquarterly'[Account] = ""General & Administrative"" ),
+            CurrentLine = ""Total Operating Expenses"", [Total Operating Expenses Calc],
+            CurrentLine = ""Operating Income"", [Operating Income Calc],
+            CurrentLine = ""Depreciation & Amortization"", CALCULATE ( [Total Amount], 'public financialdataquarterly'[Account] = ""Depreciation & Amortization"" ),
+            CurrentLine = ""Interest Expense"", CALCULATE ( [Total Amount], 'public financialdataquarterly'[Account] = ""Interest Expense"" ),
+            CurrentLine = ""Income Tax Expense"", CALCULATE ( [Total Amount], 'public financialdataquarterly'[Account] = ""Income Tax Expense"" ),
+            CurrentLine = ""Net Income"", [Net Income Calc],
+            BLANK ()
+        ),
+    // IF FALSE (we are on the grand total row), return the base total amount measure.
+    [Total Amount]
+)",TRUE,,P&L Value,P&L Value,P&L Structure,,"\$#,0.###############;(\$#,0.###############);\$#,0.###############"
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,CF Waterfall Value,[Measures].[CF Waterfall Value],CF Waterfall Value,,0,20,65535,-1,,,"VAR CurrentActivity = SELECTEDVALUE ( 'CF Structure'[CF Activity] )
+RETURN
+    SWITCH (
+        TRUE (),
+        CurrentActivity = ""Operating Activities"", [Cash Flow from Operating Activities],
+        CurrentActivity = ""Investing Activities"", [Cash Flow from Investing Activities],
+        CurrentActivity = ""Financing Activities"", [Cash Flow from Financing Activities],
+        BLANK()
+    )",TRUE,,CF Waterfall Value,CF Waterfall Value,CF Structure,,0
+38e1458b-fcdc-4028-8c80-6d82009939b4,,Model,__Default measure,[Measures].[__Default measure],__Default measure,,127,12,65535,-1,,,1,FALSE,,__Default measure,__Default measure,,,
